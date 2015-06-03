@@ -6,9 +6,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "CoronaDelegate.h"
 #import "BoomVideoTrackerDelegate.h"
+#import "CoronaDelegate.h"
 
-@interface AppCoronaDelegate : NSObject< CoronaDelegate,BoomVideoTrackerDelegate >
+@interface AppCoronaDelegate : NSObject< CoronaDelegate,BoomVideoTrackerDelegate>
 
 @end

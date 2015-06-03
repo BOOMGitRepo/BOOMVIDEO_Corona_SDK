@@ -8,7 +8,6 @@
 #import "AppCoronaDelegate.h"
 #import "BMResourceManager.h"
 #import "CoronaRuntime.h"
-#import "CoronaRuntime.h"
 #import "CoronaLua.h"
 
 @implementation AppCoronaDelegate
@@ -24,7 +23,7 @@
 }
 - (void)boomVideoTrackCallbackWithEvent:(BOOMEventErrorCode) eventCode withData:(NSDictionary*)detailData
 {
-    NSLog(@"HERE I AM WITH TRCKING DICT :: %@ ",detailData);
+      NSLog(@"HERE I AM WITH TRCKING DICT :: %@ ",detailData);
 }
 
 #pragma mark UIApplicationDelegate methods
