@@ -10,6 +10,7 @@
 #import "CoronaRuntime.h"
 #import "CoronaLua.h"
 
+id<CoronaRuntime> runtimeObj;
 @implementation AppCoronaDelegate
 
 - (void)willLoadMain:(id<CoronaRuntime>)runtime
@@ -18,9 +19,12 @@
 
 - (void)didLoadMain:(id<CoronaRuntime>)runtime
 {
-    BMResourceManager *resourceManager = [BMResourceManager sharedInstance];
-    resourceManager.videoTrackerInfoDelegate = self;
+
+    
+
 }
+
+
 - (void)boomVideoTrackCallbackWithEvent:(BOOMEventErrorCode) eventCode withData:(NSDictionary*)detailData
 {
       NSLog(@"HERE I AM WITH TRCKING DICT :: %@ ",detailData);
