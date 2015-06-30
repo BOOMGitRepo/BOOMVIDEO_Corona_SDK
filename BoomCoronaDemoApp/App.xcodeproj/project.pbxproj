@@ -45,11 +45,6 @@
 		A4C2449A1683FA5300C395D1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C244971683FA5300C395D1 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A4C2449C1683FA5300C395D1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C244991683FA5300C395D1 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A4E2537F166AE3DC00DCDC2C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E2537E166AE3DC00DCDC2C /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		FE37DEB51B3DB0030096A6F3 /* libplugin_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE37DEB41B3DB0030096A6F3 /* libplugin_library.a */; };
-		FE37DEC21B3DB0100096A6F3 /* Boom_Video_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE37DEBB1B3DB00F0096A6F3 /* Boom_Video_Storyboard_iPad.storyboard */; };
-		FE37DEC31B3DB0100096A6F3 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE37DEBC1B3DB00F0096A6F3 /* Boom_Video_Storyboard_iPhone.storyboard */; };
-		FE37DEC41B3DB0100096A6F3 /* mraid.js in Resources */ = {isa = PBXBuildFile; fileRef = FE37DEBF1B3DB0100096A6F3 /* mraid.js */; };
-		FE37DEC51B3DB0100096A6F3 /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = FE37DEC11B3DB0100096A6F3 /* YTPlayerView-iframe-player.html */; };
 		FE4E4D4A1B2F13990067AD80 /* buttonArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4E4D1F1B2F13980067AD80 /* buttonArrow.png */; };
 		FE4E4D4B1B2F13990067AD80 /* buttonArrowOver.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4E4D201B2F13980067AD80 /* buttonArrowOver.png */; };
 		FE4E4D4C1B2F13990067AD80 /* buttonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4E4D211B2F13980067AD80 /* buttonBlue.png */; };
@@ -100,6 +95,11 @@
 		FE9C01291B1758BF0010641E /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C01261B1758BE0010641E /* GooglePlus.framework */; };
 		FE9C012B1B1758F00010641E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C012A1B1758F00010641E /* AssetsLibrary.framework */; };
 		FE9C01F01B177DE90010641E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C01EF1B177DE90010641E /* CoreText.framework */; };
+		FEC285461B4292AC001C9C2E /* libplugin_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC285451B4292AC001C9C2E /* libplugin_library.a */; };
+		FEC285531B4292B6001C9C2E /* Boom_Video_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC2854C1B4292B6001C9C2E /* Boom_Video_Storyboard_iPad.storyboard */; };
+		FEC285541B4292B6001C9C2E /* Boom_Video_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC2854D1B4292B6001C9C2E /* Boom_Video_Storyboard_iPhone.storyboard */; };
+		FEC285551B4292B6001C9C2E /* mraid.js in Resources */ = {isa = PBXBuildFile; fileRef = FEC285501B4292B6001C9C2E /* mraid.js */; };
+		FEC285561B4292B6001C9C2E /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = FEC285521B4292B6001C9C2E /* YTPlayerView-iframe-player.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -146,19 +146,6 @@
 		A4C244971683FA5300C395D1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A4C244991683FA5300C395D1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A4E2537E166AE3DC00DCDC2C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
-		FE37DEB41B3DB0030096A6F3 /* libplugin_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libplugin_library.a; sourceTree = "<group>"; };
-		FE37DEB61B3DB00F0096A6F3 /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
-		FE37DEB71B3DB00F0096A6F3 /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
-		FE37DEB81B3DB00F0096A6F3 /* BMEventProcesserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEventProcesserClass.h; sourceTree = "<group>"; };
-		FE37DEB91B3DB00F0096A6F3 /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
-		FE37DEBA1B3DB00F0096A6F3 /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
-		FE37DEBB1B3DB00F0096A6F3 /* Boom_Video_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPad.storyboard; sourceTree = "<group>"; };
-		FE37DEBC1B3DB00F0096A6F3 /* Boom_Video_Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
-		FE37DEBD1B3DB00F0096A6F3 /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
-		FE37DEBE1B3DB00F0096A6F3 /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
-		FE37DEBF1B3DB0100096A6F3 /* mraid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mraid.js; sourceTree = "<group>"; };
-		FE37DEC01B3DB0100096A6F3 /* PluginLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginLibrary.h; sourceTree = "<group>"; };
-		FE37DEC11B3DB0100096A6F3 /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
 		FE4E4D1F1B2F13980067AD80 /* buttonArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonArrow.png; sourceTree = "<group>"; };
 		FE4E4D201B2F13980067AD80 /* buttonArrowOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonArrowOver.png; sourceTree = "<group>"; };
 		FE4E4D211B2F13980067AD80 /* buttonBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBlue.png; sourceTree = "<group>"; };
@@ -209,6 +196,19 @@
 		FE9C01261B1758BE0010641E /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
 		FE9C012A1B1758F00010641E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		FE9C01EF1B177DE90010641E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		FEC285451B4292AC001C9C2E /* libplugin_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libplugin_library.a; sourceTree = "<group>"; };
+		FEC285471B4292B6001C9C2E /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
+		FEC285481B4292B6001C9C2E /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
+		FEC285491B4292B6001C9C2E /* BMEventProcesserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEventProcesserClass.h; sourceTree = "<group>"; };
+		FEC2854A1B4292B6001C9C2E /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
+		FEC2854B1B4292B6001C9C2E /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
+		FEC2854C1B4292B6001C9C2E /* Boom_Video_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPad.storyboard; sourceTree = "<group>"; };
+		FEC2854D1B4292B6001C9C2E /* Boom_Video_Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FEC2854E1B4292B6001C9C2E /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
+		FEC2854F1B4292B6001C9C2E /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
+		FEC285501B4292B6001C9C2E /* mraid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mraid.js; sourceTree = "<group>"; };
+		FEC285511B4292B6001C9C2E /* PluginLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginLibrary.h; sourceTree = "<group>"; };
+		FEC285521B4292B6001C9C2E /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,7 +220,7 @@
 				FE9C01F01B177DE90010641E /* CoreText.framework in Frameworks */,
 				FE9C012B1B1758F00010641E /* AssetsLibrary.framework in Frameworks */,
 				A484117E15128D5D0074BD57 /* CoreMotion.framework in Frameworks */,
-				FE37DEB51B3DB0030096A6F3 /* libplugin_library.a in Frameworks */,
+				FEC285461B4292AC001C9C2E /* libplugin_library.a in Frameworks */,
 				A46885F418068C2900381941 /* CoreVideo.framework in Frameworks */,
 				FE9C01271B1758BF0010641E /* GoogleOpenSource.framework in Frameworks */,
 				A46885F218068C2200381941 /* GLKit.framework in Frameworks */,
@@ -287,19 +287,19 @@
 		A484110E15114F700074BD57 = {
 			isa = PBXGroup;
 			children = (
-				FE37DEB61B3DB00F0096A6F3 /* AnalyticsTrackingDelegate.h */,
-				FE37DEB71B3DB00F0096A6F3 /* BMBusinessRuleExecuter.h */,
-				FE37DEB81B3DB00F0096A6F3 /* BMEventProcesserClass.h */,
-				FE37DEB91B3DB00F0096A6F3 /* BMResourceManager.h */,
-				FE37DEBA1B3DB00F0096A6F3 /* BMVideoData.h */,
-				FE37DEBB1B3DB00F0096A6F3 /* Boom_Video_Storyboard_iPad.storyboard */,
-				FE37DEBC1B3DB00F0096A6F3 /* Boom_Video_Storyboard_iPhone.storyboard */,
-				FE37DEBD1B3DB00F0096A6F3 /* BoomVideoTrackerDelegate.h */,
-				FE37DEBE1B3DB00F0096A6F3 /* BusinessRuleExecuterDelegate.h */,
-				FE37DEBF1B3DB0100096A6F3 /* mraid.js */,
-				FE37DEC01B3DB0100096A6F3 /* PluginLibrary.h */,
-				FE37DEC11B3DB0100096A6F3 /* YTPlayerView-iframe-player.html */,
-				FE37DEB41B3DB0030096A6F3 /* libplugin_library.a */,
+				FEC285471B4292B6001C9C2E /* AnalyticsTrackingDelegate.h */,
+				FEC285481B4292B6001C9C2E /* BMBusinessRuleExecuter.h */,
+				FEC285491B4292B6001C9C2E /* BMEventProcesserClass.h */,
+				FEC2854A1B4292B6001C9C2E /* BMResourceManager.h */,
+				FEC2854B1B4292B6001C9C2E /* BMVideoData.h */,
+				FEC2854C1B4292B6001C9C2E /* Boom_Video_Storyboard_iPad.storyboard */,
+				FEC2854D1B4292B6001C9C2E /* Boom_Video_Storyboard_iPhone.storyboard */,
+				FEC2854E1B4292B6001C9C2E /* BoomVideoTrackerDelegate.h */,
+				FEC2854F1B4292B6001C9C2E /* BusinessRuleExecuterDelegate.h */,
+				FEC285501B4292B6001C9C2E /* mraid.js */,
+				FEC285511B4292B6001C9C2E /* PluginLibrary.h */,
+				FEC285521B4292B6001C9C2E /* YTPlayerView-iframe-player.html */,
+				FEC285451B4292AC001C9C2E /* libplugin_library.a */,
 				FE4E4DE51B2F1D8E0067AD80 /* Default-568h@2x.png */,
 				FE4E4D1F1B2F13980067AD80 /* buttonArrow.png */,
 				FE4E4D201B2F13980067AD80 /* buttonArrowOver.png */,
@@ -492,14 +492,14 @@
 				FE4E4D4C1B2F13990067AD80 /* buttonBlue.png in Resources */,
 				FE4E4D571B2F13990067AD80 /* buttonPurpleOver.png in Resources */,
 				FE4E4D501B2F13990067AD80 /* buttonGray.png in Resources */,
-				FE37DEC51B3DB0100096A6F3 /* YTPlayerView-iframe-player.html in Resources */,
+				FEC285561B4292B6001C9C2E /* YTPlayerView-iframe-player.html in Resources */,
 				FE4E4D701B2F13990067AD80 /* Icon-xhdpi.png in Resources */,
 				FE4E4D601B2F13990067AD80 /* Icon-60@2x.png in Resources */,
 				FE4E4D6F1B2F13990067AD80 /* Icon-Small@3x.png in Resources */,
-				FE37DEC21B3DB0100096A6F3 /* Boom_Video_Storyboard_iPad.storyboard in Resources */,
+				FEC285531B4292B6001C9C2E /* Boom_Video_Storyboard_iPad.storyboard in Resources */,
 				FE4E4D6B1B2F13990067AD80 /* Icon-Small-50.png in Resources */,
 				FE4E4D611B2F13990067AD80 /* Icon-60@3x.png in Resources */,
-				FE37DEC31B3DB0100096A6F3 /* Boom_Video_Storyboard_iPhone.storyboard in Resources */,
+				FEC285541B4292B6001C9C2E /* Boom_Video_Storyboard_iPhone.storyboard in Resources */,
 				FE4E4D4A1B2F13990067AD80 /* buttonArrow.png in Resources */,
 				A447B6671666FD02009EA762 /* MainWindow-iPad.xib in Resources */,
 				A447B6681666FD02009EA762 /* MainWindow.xib in Resources */,
@@ -530,7 +530,7 @@
 				FE4E4D621B2F13990067AD80 /* Icon-72.png in Resources */,
 				FE4E4D5D1B2F13990067AD80 /* buttonYellowOver.png in Resources */,
 				FE4E4D5E1B2F13990067AD80 /* carbonfiber.jpg in Resources */,
-				FE37DEC41B3DB0100096A6F3 /* mraid.js in Resources */,
+				FEC285551B4292B6001C9C2E /* mraid.js in Resources */,
 				FE4E4DEB1B2F1D8E0067AD80 /* Default-568h@2x.png in Resources */,
 				A498B81A16D70EFC0091A148 /* CoronaResources.bundle in Resources */,
 				FE4E4D531B2F13990067AD80 /* buttonGreenOver.png in Resources */,
