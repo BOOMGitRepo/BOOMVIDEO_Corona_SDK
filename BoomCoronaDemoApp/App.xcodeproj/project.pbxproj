@@ -95,11 +95,8 @@
 		FE9C01291B1758BF0010641E /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C01261B1758BE0010641E /* GooglePlus.framework */; };
 		FE9C012B1B1758F00010641E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C012A1B1758F00010641E /* AssetsLibrary.framework */; };
 		FE9C01F01B177DE90010641E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C01EF1B177DE90010641E /* CoreText.framework */; };
-		FEC285461B4292AC001C9C2E /* libplugin_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEC285451B4292AC001C9C2E /* libplugin_library.a */; };
-		FEC285531B4292B6001C9C2E /* Boom_Video_Storyboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC2854C1B4292B6001C9C2E /* Boom_Video_Storyboard_iPad.storyboard */; };
-		FEC285541B4292B6001C9C2E /* Boom_Video_Storyboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC2854D1B4292B6001C9C2E /* Boom_Video_Storyboard_iPhone.storyboard */; };
-		FEC285551B4292B6001C9C2E /* mraid.js in Resources */ = {isa = PBXBuildFile; fileRef = FEC285501B4292B6001C9C2E /* mraid.js */; };
-		FEC285561B4292B6001C9C2E /* YTPlayerView-iframe-player.html in Resources */ = {isa = PBXBuildFile; fileRef = FEC285521B4292B6001C9C2E /* YTPlayerView-iframe-player.html */; };
+		FEE9ED441B666326007D6FFC /* BoomResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEE9ED411B666325007D6FFC /* BoomResources.bundle */; };
+		FEE9ED461B666729007D6FFC /* libplugin_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE9ED451B666729007D6FFC /* libplugin_library.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -196,19 +193,12 @@
 		FE9C01261B1758BE0010641E /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
 		FE9C012A1B1758F00010641E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		FE9C01EF1B177DE90010641E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		FEC285451B4292AC001C9C2E /* libplugin_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libplugin_library.a; sourceTree = "<group>"; };
-		FEC285471B4292B6001C9C2E /* AnalyticsTrackingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsTrackingDelegate.h; sourceTree = "<group>"; };
-		FEC285481B4292B6001C9C2E /* BMBusinessRuleExecuter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMBusinessRuleExecuter.h; sourceTree = "<group>"; };
-		FEC285491B4292B6001C9C2E /* BMEventProcesserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEventProcesserClass.h; sourceTree = "<group>"; };
-		FEC2854A1B4292B6001C9C2E /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
-		FEC2854B1B4292B6001C9C2E /* BMVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMVideoData.h; sourceTree = "<group>"; };
-		FEC2854C1B4292B6001C9C2E /* Boom_Video_Storyboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPad.storyboard; sourceTree = "<group>"; };
-		FEC2854D1B4292B6001C9C2E /* Boom_Video_Storyboard_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Boom_Video_Storyboard_iPhone.storyboard; sourceTree = "<group>"; };
-		FEC2854E1B4292B6001C9C2E /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
-		FEC2854F1B4292B6001C9C2E /* BusinessRuleExecuterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessRuleExecuterDelegate.h; sourceTree = "<group>"; };
-		FEC285501B4292B6001C9C2E /* mraid.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mraid.js; sourceTree = "<group>"; };
-		FEC285511B4292B6001C9C2E /* PluginLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginLibrary.h; sourceTree = "<group>"; };
-		FEC285521B4292B6001C9C2E /* YTPlayerView-iframe-player.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "YTPlayerView-iframe-player.html"; sourceTree = "<group>"; };
+		FEE9ED3F1B666325007D6FFC /* BMEventProcesserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEventProcesserClass.h; sourceTree = "<group>"; };
+		FEE9ED401B666325007D6FFC /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
+		FEE9ED411B666325007D6FFC /* BoomResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BoomResources.bundle; sourceTree = "<group>"; };
+		FEE9ED421B666325007D6FFC /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
+		FEE9ED431B666325007D6FFC /* PluginLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginLibrary.h; sourceTree = "<group>"; };
+		FEE9ED451B666729007D6FFC /* libplugin_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libplugin_library.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,7 +210,7 @@
 				FE9C01F01B177DE90010641E /* CoreText.framework in Frameworks */,
 				FE9C012B1B1758F00010641E /* AssetsLibrary.framework in Frameworks */,
 				A484117E15128D5D0074BD57 /* CoreMotion.framework in Frameworks */,
-				FEC285461B4292AC001C9C2E /* libplugin_library.a in Frameworks */,
+				FEE9ED461B666729007D6FFC /* libplugin_library.a in Frameworks */,
 				A46885F418068C2900381941 /* CoreVideo.framework in Frameworks */,
 				FE9C01271B1758BF0010641E /* GoogleOpenSource.framework in Frameworks */,
 				A46885F218068C2200381941 /* GLKit.framework in Frameworks */,
@@ -287,63 +277,8 @@
 		A484110E15114F700074BD57 = {
 			isa = PBXGroup;
 			children = (
-				FEC285471B4292B6001C9C2E /* AnalyticsTrackingDelegate.h */,
-				FEC285481B4292B6001C9C2E /* BMBusinessRuleExecuter.h */,
-				FEC285491B4292B6001C9C2E /* BMEventProcesserClass.h */,
-				FEC2854A1B4292B6001C9C2E /* BMResourceManager.h */,
-				FEC2854B1B4292B6001C9C2E /* BMVideoData.h */,
-				FEC2854C1B4292B6001C9C2E /* Boom_Video_Storyboard_iPad.storyboard */,
-				FEC2854D1B4292B6001C9C2E /* Boom_Video_Storyboard_iPhone.storyboard */,
-				FEC2854E1B4292B6001C9C2E /* BoomVideoTrackerDelegate.h */,
-				FEC2854F1B4292B6001C9C2E /* BusinessRuleExecuterDelegate.h */,
-				FEC285501B4292B6001C9C2E /* mraid.js */,
-				FEC285511B4292B6001C9C2E /* PluginLibrary.h */,
-				FEC285521B4292B6001C9C2E /* YTPlayerView-iframe-player.html */,
-				FEC285451B4292AC001C9C2E /* libplugin_library.a */,
-				FE4E4DE51B2F1D8E0067AD80 /* Default-568h@2x.png */,
-				FE4E4D1F1B2F13980067AD80 /* buttonArrow.png */,
-				FE4E4D201B2F13980067AD80 /* buttonArrowOver.png */,
-				FE4E4D211B2F13980067AD80 /* buttonBlue.png */,
-				FE4E4D221B2F13980067AD80 /* buttonBlueOver.png */,
-				FE4E4D231B2F13980067AD80 /* buttonBlueSmall.png */,
-				FE4E4D241B2F13980067AD80 /* buttonBlueSmallOver.png */,
-				FE4E4D251B2F13980067AD80 /* buttonGray.png */,
-				FE4E4D261B2F13980067AD80 /* buttonGrayOver.png */,
-				FE4E4D271B2F13980067AD80 /* buttonGreen.png */,
-				FE4E4D281B2F13980067AD80 /* buttonGreenOver.png */,
-				FE4E4D291B2F13980067AD80 /* buttonOrange.png */,
-				FE4E4D2A1B2F13980067AD80 /* buttonOrangeOver.png */,
-				FE4E4D2B1B2F13980067AD80 /* buttonPurple.png */,
-				FE4E4D2C1B2F13980067AD80 /* buttonPurpleOver.png */,
-				FE4E4D2D1B2F13980067AD80 /* buttonRed.png */,
-				FE4E4D2E1B2F13980067AD80 /* buttonRedOver.png */,
-				FE4E4D2F1B2F13980067AD80 /* buttonWhite.png */,
-				FE4E4D301B2F13980067AD80 /* buttonWhiteOver.png */,
-				FE4E4D311B2F13980067AD80 /* buttonYellow.png */,
-				FE4E4D321B2F13980067AD80 /* buttonYellowOver.png */,
-				FE4E4D331B2F13980067AD80 /* carbonfiber.jpg */,
-				FE4E4D341B2F13980067AD80 /* Icon-60.png */,
-				FE4E4D351B2F13980067AD80 /* Icon-60@2x.png */,
-				FE4E4D361B2F13980067AD80 /* Icon-60@3x.png */,
-				FE4E4D371B2F13980067AD80 /* Icon-72.png */,
-				FE4E4D381B2F13980067AD80 /* Icon-72@2x.png */,
-				FE4E4D391B2F13980067AD80 /* Icon-76.png */,
-				FE4E4D3A1B2F13980067AD80 /* Icon-76@2x.png */,
-				FE4E4D3B1B2F13990067AD80 /* Icon-hdpi.png */,
-				FE4E4D3C1B2F13990067AD80 /* Icon-ldpi.png */,
-				FE4E4D3D1B2F13990067AD80 /* Icon-mdpi.png */,
-				FE4E4D3E1B2F13990067AD80 /* Icon-Small-40.png */,
-				FE4E4D3F1B2F13990067AD80 /* Icon-Small-40@2x.png */,
-				FE4E4D401B2F13990067AD80 /* Icon-Small-50.png */,
-				FE4E4D411B2F13990067AD80 /* Icon-Small-50@2x.png */,
-				FE4E4D421B2F13990067AD80 /* Icon-Small.png */,
-				FE4E4D431B2F13990067AD80 /* Icon-Small@2x.png */,
-				FE4E4D441B2F13990067AD80 /* Icon-Small@3x.png */,
-				FE4E4D451B2F13990067AD80 /* Icon-xhdpi.png */,
-				FE4E4D461B2F13990067AD80 /* Icon-xxhdpi.png */,
-				FE4E4D471B2F13990067AD80 /* Icon-xxxhdpi.png */,
-				FE4E4D481B2F13990067AD80 /* Icon.png */,
-				FE4E4D491B2F13990067AD80 /* Icon@2x.png */,
+				FEE9ED471B666DB9007D6FFC /* BoomPlugin */,
+				FEC7BB261B6617B800DDF836 /* Resources */,
 				FE9C01241B1758BE0010641E /* GoogleOpenSource.framework */,
 				FE9C01251B1758BE0010641E /* GooglePlus.bundle */,
 				FE9C01261B1758BE0010641E /* GooglePlus.framework */,
@@ -429,6 +364,70 @@
 			path = CoronaSampleApp;
 			sourceTree = "<group>";
 		};
+		FEC7BB261B6617B800DDF836 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FE4E4DE51B2F1D8E0067AD80 /* Default-568h@2x.png */,
+				FE4E4D1F1B2F13980067AD80 /* buttonArrow.png */,
+				FE4E4D201B2F13980067AD80 /* buttonArrowOver.png */,
+				FE4E4D211B2F13980067AD80 /* buttonBlue.png */,
+				FE4E4D221B2F13980067AD80 /* buttonBlueOver.png */,
+				FE4E4D231B2F13980067AD80 /* buttonBlueSmall.png */,
+				FE4E4D241B2F13980067AD80 /* buttonBlueSmallOver.png */,
+				FE4E4D251B2F13980067AD80 /* buttonGray.png */,
+				FE4E4D261B2F13980067AD80 /* buttonGrayOver.png */,
+				FE4E4D271B2F13980067AD80 /* buttonGreen.png */,
+				FE4E4D281B2F13980067AD80 /* buttonGreenOver.png */,
+				FE4E4D291B2F13980067AD80 /* buttonOrange.png */,
+				FE4E4D2A1B2F13980067AD80 /* buttonOrangeOver.png */,
+				FE4E4D2B1B2F13980067AD80 /* buttonPurple.png */,
+				FE4E4D2C1B2F13980067AD80 /* buttonPurpleOver.png */,
+				FE4E4D2D1B2F13980067AD80 /* buttonRed.png */,
+				FE4E4D2E1B2F13980067AD80 /* buttonRedOver.png */,
+				FE4E4D2F1B2F13980067AD80 /* buttonWhite.png */,
+				FE4E4D301B2F13980067AD80 /* buttonWhiteOver.png */,
+				FE4E4D311B2F13980067AD80 /* buttonYellow.png */,
+				FE4E4D321B2F13980067AD80 /* buttonYellowOver.png */,
+				FE4E4D331B2F13980067AD80 /* carbonfiber.jpg */,
+				FE4E4D341B2F13980067AD80 /* Icon-60.png */,
+				FE4E4D351B2F13980067AD80 /* Icon-60@2x.png */,
+				FE4E4D361B2F13980067AD80 /* Icon-60@3x.png */,
+				FE4E4D371B2F13980067AD80 /* Icon-72.png */,
+				FE4E4D381B2F13980067AD80 /* Icon-72@2x.png */,
+				FE4E4D391B2F13980067AD80 /* Icon-76.png */,
+				FE4E4D3A1B2F13980067AD80 /* Icon-76@2x.png */,
+				FE4E4D3B1B2F13990067AD80 /* Icon-hdpi.png */,
+				FE4E4D3C1B2F13990067AD80 /* Icon-ldpi.png */,
+				FE4E4D3D1B2F13990067AD80 /* Icon-mdpi.png */,
+				FE4E4D3E1B2F13990067AD80 /* Icon-Small-40.png */,
+				FE4E4D3F1B2F13990067AD80 /* Icon-Small-40@2x.png */,
+				FE4E4D401B2F13990067AD80 /* Icon-Small-50.png */,
+				FE4E4D411B2F13990067AD80 /* Icon-Small-50@2x.png */,
+				FE4E4D421B2F13990067AD80 /* Icon-Small.png */,
+				FE4E4D431B2F13990067AD80 /* Icon-Small@2x.png */,
+				FE4E4D441B2F13990067AD80 /* Icon-Small@3x.png */,
+				FE4E4D451B2F13990067AD80 /* Icon-xhdpi.png */,
+				FE4E4D461B2F13990067AD80 /* Icon-xxhdpi.png */,
+				FE4E4D471B2F13990067AD80 /* Icon-xxxhdpi.png */,
+				FE4E4D481B2F13990067AD80 /* Icon.png */,
+				FE4E4D491B2F13990067AD80 /* Icon@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FEE9ED471B666DB9007D6FFC /* BoomPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				FEE9ED451B666729007D6FFC /* libplugin_library.a */,
+				FEE9ED3F1B666325007D6FFC /* BMEventProcesserClass.h */,
+				FEE9ED401B666325007D6FFC /* BMResourceManager.h */,
+				FEE9ED411B666325007D6FFC /* BoomResources.bundle */,
+				FEE9ED421B666325007D6FFC /* BoomVideoTrackerDelegate.h */,
+				FEE9ED431B666325007D6FFC /* PluginLibrary.h */,
+			);
+			name = BoomPlugin;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -492,14 +491,11 @@
 				FE4E4D4C1B2F13990067AD80 /* buttonBlue.png in Resources */,
 				FE4E4D571B2F13990067AD80 /* buttonPurpleOver.png in Resources */,
 				FE4E4D501B2F13990067AD80 /* buttonGray.png in Resources */,
-				FEC285561B4292B6001C9C2E /* YTPlayerView-iframe-player.html in Resources */,
 				FE4E4D701B2F13990067AD80 /* Icon-xhdpi.png in Resources */,
 				FE4E4D601B2F13990067AD80 /* Icon-60@2x.png in Resources */,
 				FE4E4D6F1B2F13990067AD80 /* Icon-Small@3x.png in Resources */,
-				FEC285531B4292B6001C9C2E /* Boom_Video_Storyboard_iPad.storyboard in Resources */,
 				FE4E4D6B1B2F13990067AD80 /* Icon-Small-50.png in Resources */,
 				FE4E4D611B2F13990067AD80 /* Icon-60@3x.png in Resources */,
-				FEC285541B4292B6001C9C2E /* Boom_Video_Storyboard_iPhone.storyboard in Resources */,
 				FE4E4D4A1B2F13990067AD80 /* buttonArrow.png in Resources */,
 				A447B6671666FD02009EA762 /* MainWindow-iPad.xib in Resources */,
 				A447B6681666FD02009EA762 /* MainWindow.xib in Resources */,
@@ -530,7 +526,7 @@
 				FE4E4D621B2F13990067AD80 /* Icon-72.png in Resources */,
 				FE4E4D5D1B2F13990067AD80 /* buttonYellowOver.png in Resources */,
 				FE4E4D5E1B2F13990067AD80 /* carbonfiber.jpg in Resources */,
-				FEC285551B4292B6001C9C2E /* mraid.js in Resources */,
+				FEE9ED441B666326007D6FFC /* BoomResources.bundle in Resources */,
 				FE4E4DEB1B2F1D8E0067AD80 /* Default-568h@2x.png in Resources */,
 				A498B81A16D70EFC0091A148 /* CoronaResources.bundle in Resources */,
 				FE4E4D531B2F13990067AD80 /* buttonGreenOver.png in Resources */,
@@ -641,7 +637,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -662,6 +659,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
@@ -681,7 +679,8 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -696,6 +695,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
@@ -709,6 +709,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
 				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -733,6 +735,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SEPARATE_STRIP = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
@@ -746,6 +749,8 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LIBRARY = "libstdc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
 				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -770,6 +775,7 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SEPARATE_STRIP = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
