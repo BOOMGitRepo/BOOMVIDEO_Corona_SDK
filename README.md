@@ -3,9 +3,9 @@
 Demo IOS app: Download package [BoomCoronaDemoApp_IOS](BoomCoronaDemoApp_IOS)
 
 Demo Android App: 
-Download package for [BoomCoronaDemoApp_Android](BoomCoronaDemoApp_Android/Corona_1.6)
+Download package for [BoomCoronaDemoApp_Android](BoomCoronaDemoApp_Android)
 
-Download package for [Corona_1.7](BoomCoronaDemoApp_Android/Corona_1.7)
+
 
 
 # Get Started
