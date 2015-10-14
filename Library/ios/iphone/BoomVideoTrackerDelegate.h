@@ -8,39 +8,30 @@
 
 #import <Foundation/Foundation.h>
 
-typedef NS_ENUM(NSInteger, BOOMEventErrorCode){
+typedef NS_ENUM(NSInteger, BOOMEventCode){
     
-    kAdLoaded,
-    kAdClosed,
+    kAdViewLoaded,
+    kAdViewClosed,
+    kAdFailed,
+    kPointsRevealed,
     
-    kVideoStarted = 100,
-    kVideoPaused,
-    kVideoCompletedwithPercentage,
     kSuccessfulSharedOnFacebook,
     kSuccessfulSharedOnTwitter,
     kSuccessfulSharedOnGooglePlus,
-    kSurveyCompleted,
-    kSurveyNotCompleted,
-    
-    kRedirectedToBlog,
-    kRedirectedToInstall,
-    kRedirectedToInstagram,
-    kRedirectedToSlideshare,
-    kRedirectedToPurchase,
-    kRedirectedToAnnotation,
-    kRedirectedToSignUp,
-    
-    kInterstitial,
-    kBanner,
-    
-    kNetworkNotAvailableError = - 200,
-    kUnknownError,
-    
+        
 };
+
+#define kGetPoints          @"pointsRevealed"
+#define kErrorInfo          @"errorInfo"
+#define kErrorDescription   @"errorDescription"
+
+#define kNoFill             @"NoFill"
+#define kNetworkError       @"NetworkError"
+#define kInternalError      @"InternalError"
 
 @protocol BoomVideoTrackerDelegate <NSObject>
 
 @required
-- (void)boomVideoTrackCallbackWithEvent:(BOOMEventErrorCode) eventCode withData:(NSDictionary*)detailData;
+- (void)boomVideoTrackCallbackWithEvent:(BOOMEventCode) eventCode withData:(NSDictionary*)detailData;
 
 @end

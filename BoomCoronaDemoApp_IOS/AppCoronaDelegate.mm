@@ -25,7 +25,7 @@ id<CoronaRuntime> runtimeObj;
 }
 
 
-- (void)boomVideoTrackCallbackWithEvent:(BOOMEventErrorCode) eventCode withData:(NSDictionary*)detailData
+- (void)boomVideoTrackCallbackWithEvent:(BOOMEventCode) eventCode withData:(NSDictionary*)detailData
 {
       NSLog(@"HERE I AM WITH TRCKING DICT :: %@ ",detailData);
 }

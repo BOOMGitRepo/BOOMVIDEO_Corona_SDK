@@ -45,6 +45,8 @@
 		A4C2449A1683FA5300C395D1 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C244971683FA5300C395D1 /* Accounts.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A4C2449C1683FA5300C395D1 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4C244991683FA5300C395D1 /* Social.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		A4E2537F166AE3DC00DCDC2C /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E2537E166AE3DC00DCDC2C /* Twitter.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FE424B061BA6A92E00262231 /* BoomResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FE424B031BA6A92E00262231 /* BoomResources.bundle */; };
+		FE424B081BA989C100262231 /* libplugin_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE424B071BA989C100262231 /* libplugin_library.a */; };
 		FE4E4D4A1B2F13990067AD80 /* buttonArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4E4D1F1B2F13980067AD80 /* buttonArrow.png */; };
 		FE4E4D4B1B2F13990067AD80 /* buttonArrowOver.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4E4D201B2F13980067AD80 /* buttonArrowOver.png */; };
 		FE4E4D4C1B2F13990067AD80 /* buttonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = FE4E4D211B2F13980067AD80 /* buttonBlue.png */; };
@@ -95,8 +97,7 @@
 		FE9C01291B1758BF0010641E /* GooglePlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C01261B1758BE0010641E /* GooglePlus.framework */; };
 		FE9C012B1B1758F00010641E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C012A1B1758F00010641E /* AssetsLibrary.framework */; };
 		FE9C01F01B177DE90010641E /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE9C01EF1B177DE90010641E /* CoreText.framework */; };
-		FEE9ED441B666326007D6FFC /* BoomResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FEE9ED411B666325007D6FFC /* BoomResources.bundle */; };
-		FEE9ED461B666729007D6FFC /* libplugin_library.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FEE9ED451B666729007D6FFC /* libplugin_library.a */; };
+		FED9EAA11B99CEC800215E68 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FED9EAA01B99CEC800215E68 /* libxml2.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -143,6 +144,12 @@
 		A4C244971683FA5300C395D1 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		A4C244991683FA5300C395D1 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		A4E2537E166AE3DC00DCDC2C /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		FE424B011BA6A92E00262231 /* BMEventProcesserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEventProcesserClass.h; sourceTree = "<group>"; };
+		FE424B021BA6A92E00262231 /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
+		FE424B031BA6A92E00262231 /* BoomResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BoomResources.bundle; sourceTree = "<group>"; };
+		FE424B041BA6A92E00262231 /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
+		FE424B051BA6A92E00262231 /* PluginLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginLibrary.h; sourceTree = "<group>"; };
+		FE424B071BA989C100262231 /* libplugin_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libplugin_library.a; sourceTree = "<group>"; };
 		FE4E4D1F1B2F13980067AD80 /* buttonArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonArrow.png; sourceTree = "<group>"; };
 		FE4E4D201B2F13980067AD80 /* buttonArrowOver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonArrowOver.png; sourceTree = "<group>"; };
 		FE4E4D211B2F13980067AD80 /* buttonBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBlue.png; sourceTree = "<group>"; };
@@ -193,12 +200,7 @@
 		FE9C01261B1758BE0010641E /* GooglePlus.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GooglePlus.framework; sourceTree = "<group>"; };
 		FE9C012A1B1758F00010641E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		FE9C01EF1B177DE90010641E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		FEE9ED3F1B666325007D6FFC /* BMEventProcesserClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMEventProcesserClass.h; sourceTree = "<group>"; };
-		FEE9ED401B666325007D6FFC /* BMResourceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMResourceManager.h; sourceTree = "<group>"; };
-		FEE9ED411B666325007D6FFC /* BoomResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = BoomResources.bundle; sourceTree = "<group>"; };
-		FEE9ED421B666325007D6FFC /* BoomVideoTrackerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoomVideoTrackerDelegate.h; sourceTree = "<group>"; };
-		FEE9ED431B666325007D6FFC /* PluginLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PluginLibrary.h; sourceTree = "<group>"; };
-		FEE9ED451B666729007D6FFC /* libplugin_library.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libplugin_library.a; sourceTree = "<group>"; };
+		FED9EAA01B99CEC800215E68 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,11 +208,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FED9EAA11B99CEC800215E68 /* libxml2.dylib in Frameworks */,
 				A484118515128D5D0074BD57 /* MobileCoreServices.framework in Frameworks */,
 				FE9C01F01B177DE90010641E /* CoreText.framework in Frameworks */,
 				FE9C012B1B1758F00010641E /* AssetsLibrary.framework in Frameworks */,
 				A484117E15128D5D0074BD57 /* CoreMotion.framework in Frameworks */,
-				FEE9ED461B666729007D6FFC /* libplugin_library.a in Frameworks */,
 				A46885F418068C2900381941 /* CoreVideo.framework in Frameworks */,
 				FE9C01271B1758BF0010641E /* GoogleOpenSource.framework in Frameworks */,
 				A46885F218068C2200381941 /* GLKit.framework in Frameworks */,
@@ -223,6 +225,7 @@
 				A484117B15128D5D0074BD57 /* CFNetwork.framework in Frameworks */,
 				A484112215114F700074BD57 /* CoreGraphics.framework in Frameworks */,
 				A484117C15128D5D0074BD57 /* CoreLocation.framework in Frameworks */,
+				FE424B081BA989C100262231 /* libplugin_library.a in Frameworks */,
 				A484117D15128D5D0074BD57 /* CoreMedia.framework in Frameworks */,
 				A484112015114F700074BD57 /* Foundation.framework in Frameworks */,
 				A484117F15128D5D0074BD57 /* GameKit.framework in Frameworks */,
@@ -277,96 +280,12 @@
 		A484110E15114F700074BD57 = {
 			isa = PBXGroup;
 			children = (
-				FEE9ED471B666DB9007D6FFC /* BoomPlugin */,
-				FEC7BB261B6617B800DDF836 /* Resources */,
-				FE9C01241B1758BE0010641E /* GoogleOpenSource.framework */,
-				FE9C01251B1758BE0010641E /* GooglePlus.bundle */,
-				FE9C01261B1758BE0010641E /* GooglePlus.framework */,
-				FE9C01201B1758AC0010641E /* metadata.lua */,
-				A484112715114F700074BD57 /* App */,
-				A447B823166856C7009EA762 /* Corona */,
-				A447B66F16670015009EA762 /* CoronaEnterprise */,
-				A484111C15114F700074BD57 /* Frameworks */,
-				A484111A15114F700074BD57 /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		A484111A15114F700074BD57 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A484111915114F700074BD57 /* App.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A484111C15114F700074BD57 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FE9C01EF1B177DE90010641E /* CoreText.framework */,
-				FE9C012A1B1758F00010641E /* AssetsLibrary.framework */,
-				A46885F318068C2900381941 /* CoreVideo.framework */,
-				A4C244971683FA5300C395D1 /* Accounts.framework */,
-				A4C244991683FA5300C395D1 /* Social.framework */,
-				A484116315128D5C0074BD57 /* AddressBook.framework */,
-				A484116415128D5C0074BD57 /* AddressBookUI.framework */,
-				A484116515128D5C0074BD57 /* AudioToolbox.framework */,
-				A484116615128D5C0074BD57 /* AVFoundation.framework */,
-				A484116715128D5C0074BD57 /* CFNetwork.framework */,
-				A484112115114F700074BD57 /* CoreGraphics.framework */,
-				A484116815128D5C0074BD57 /* CoreLocation.framework */,
-				A484116915128D5C0074BD57 /* CoreMedia.framework */,
-				A484116A15128D5C0074BD57 /* CoreMotion.framework */,
-				A484111F15114F700074BD57 /* Foundation.framework */,
-				A484116B15128D5D0074BD57 /* GameKit.framework */,
-				A484112315114F700074BD57 /* GLKit.framework */,
-				A484116C15128D5D0074BD57 /* ImageIO.framework */,
-				A484116D15128D5D0074BD57 /* libobjc.dylib */,
-				A48411C915129F610074BD57 /* libsqlite3.dylib */,
-				A484116E15128D5D0074BD57 /* MapKit.framework */,
-				A484116F15128D5D0074BD57 /* MediaPlayer.framework */,
-				A484117015128D5D0074BD57 /* MessageUI.framework */,
-				A484117115128D5D0074BD57 /* MobileCoreServices.framework */,
-				A484117215128D5D0074BD57 /* OpenAL.framework */,
-				A484112515114F700074BD57 /* OpenGLES.framework */,
-				A484117315128D5D0074BD57 /* QuartzCore.framework */,
-				A484117415128D5D0074BD57 /* Security.framework */,
-				A484117515128D5D0074BD57 /* StoreKit.framework */,
-				A484117615128D5D0074BD57 /* SystemConfiguration.framework */,
-				A4E2537E166AE3DC00DCDC2C /* Twitter.framework */,
-				A484111D15114F700074BD57 /* UIKit.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A484112715114F700074BD57 /* App */ = {
-			isa = PBXGroup;
-			children = (
-				A484112915114F700074BD57 /* App-Info.plist */,
-				A484112A15114F700074BD57 /* InfoPlist.strings */,
-				A484112D15114F700074BD57 /* main.mm */,
-				A484112F15114F700074BD57 /* Prefix.pch */,
-				A447B60E165D72FB009EA762 /* AppCoronaDelegate.h */,
-				A447B60F165D72FB009EA762 /* AppCoronaDelegate.mm */,
-			);
-			name = App;
-			path = CoronaSampleApp;
-			sourceTree = "<group>";
-		};
-		A4841153151161300074BD57 /* resource */ = {
-			isa = PBXGroup;
-			children = (
-				A498B81916D70EFC0091A148 /* CoronaResources.bundle */,
-				A447B6691666FD43009EA762 /* CoronaSDK3rdPartyLicenses.txt */,
-				A447B6641666FD02009EA762 /* MainWindow-iPad.xib */,
-				A447B6651666FD02009EA762 /* MainWindow.xib */,
-			);
-			name = resource;
-			path = CoronaSampleApp;
-			sourceTree = "<group>";
-		};
-		FEC7BB261B6617B800DDF836 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
+				FE424B071BA989C100262231 /* libplugin_library.a */,
+				FE424B011BA6A92E00262231 /* BMEventProcesserClass.h */,
+				FE424B021BA6A92E00262231 /* BMResourceManager.h */,
+				FE424B031BA6A92E00262231 /* BoomResources.bundle */,
+				FE424B041BA6A92E00262231 /* BoomVideoTrackerDelegate.h */,
+				FE424B051BA6A92E00262231 /* PluginLibrary.h */,
 				FE4E4DE51B2F1D8E0067AD80 /* Default-568h@2x.png */,
 				FE4E4D1F1B2F13980067AD80 /* buttonArrow.png */,
 				FE4E4D201B2F13980067AD80 /* buttonArrowOver.png */,
@@ -411,21 +330,90 @@
 				FE4E4D471B2F13990067AD80 /* Icon-xxxhdpi.png */,
 				FE4E4D481B2F13990067AD80 /* Icon.png */,
 				FE4E4D491B2F13990067AD80 /* Icon@2x.png */,
+				FE9C01241B1758BE0010641E /* GoogleOpenSource.framework */,
+				FE9C01251B1758BE0010641E /* GooglePlus.bundle */,
+				FE9C01261B1758BE0010641E /* GooglePlus.framework */,
+				FE9C01201B1758AC0010641E /* metadata.lua */,
+				A484112715114F700074BD57 /* App */,
+				A447B823166856C7009EA762 /* Corona */,
+				A447B66F16670015009EA762 /* CoronaEnterprise */,
+				A484111C15114F700074BD57 /* Frameworks */,
+				A484111A15114F700074BD57 /* Products */,
 			);
-			name = Resources;
 			sourceTree = "<group>";
 		};
-		FEE9ED471B666DB9007D6FFC /* BoomPlugin */ = {
+		A484111A15114F700074BD57 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FEE9ED451B666729007D6FFC /* libplugin_library.a */,
-				FEE9ED3F1B666325007D6FFC /* BMEventProcesserClass.h */,
-				FEE9ED401B666325007D6FFC /* BMResourceManager.h */,
-				FEE9ED411B666325007D6FFC /* BoomResources.bundle */,
-				FEE9ED421B666325007D6FFC /* BoomVideoTrackerDelegate.h */,
-				FEE9ED431B666325007D6FFC /* PluginLibrary.h */,
+				A484111915114F700074BD57 /* App.app */,
 			);
-			name = BoomPlugin;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A484111C15114F700074BD57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FED9EAA01B99CEC800215E68 /* libxml2.dylib */,
+				FE9C01EF1B177DE90010641E /* CoreText.framework */,
+				FE9C012A1B1758F00010641E /* AssetsLibrary.framework */,
+				A46885F318068C2900381941 /* CoreVideo.framework */,
+				A4C244971683FA5300C395D1 /* Accounts.framework */,
+				A4C244991683FA5300C395D1 /* Social.framework */,
+				A484116315128D5C0074BD57 /* AddressBook.framework */,
+				A484116415128D5C0074BD57 /* AddressBookUI.framework */,
+				A484116515128D5C0074BD57 /* AudioToolbox.framework */,
+				A484116615128D5C0074BD57 /* AVFoundation.framework */,
+				A484116715128D5C0074BD57 /* CFNetwork.framework */,
+				A484112115114F700074BD57 /* CoreGraphics.framework */,
+				A484116815128D5C0074BD57 /* CoreLocation.framework */,
+				A484116915128D5C0074BD57 /* CoreMedia.framework */,
+				A484116A15128D5C0074BD57 /* CoreMotion.framework */,
+				A484111F15114F700074BD57 /* Foundation.framework */,
+				A484116B15128D5D0074BD57 /* GameKit.framework */,
+				A484112315114F700074BD57 /* GLKit.framework */,
+				A484116C15128D5D0074BD57 /* ImageIO.framework */,
+				A484116D15128D5D0074BD57 /* libobjc.dylib */,
+				A48411C915129F610074BD57 /* libsqlite3.dylib */,
+				A484116E15128D5D0074BD57 /* MapKit.framework */,
+				A484116F15128D5D0074BD57 /* MediaPlayer.framework */,
+				A484117015128D5D0074BD57 /* MessageUI.framework */,
+				A484117115128D5D0074BD57 /* MobileCoreServices.framework */,
+				A484117215128D5D0074BD57 /* OpenAL.framework */,
+				A484112515114F700074BD57 /* OpenGLES.framework */,
+				A484117315128D5D0074BD57 /* QuartzCore.framework */,
+				A484117415128D5D0074BD57 /* Security.framework */,
+				A484117515128D5D0074BD57 /* StoreKit.framework */,
+				A484117615128D5D0074BD57 /* SystemConfiguration.framework */,
+				A4E2537E166AE3DC00DCDC2C /* Twitter.framework */,
+				A484111D15114F700074BD57 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A484112715114F700074BD57 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A484112915114F700074BD57 /* App-Info.plist */,
+				A484112A15114F700074BD57 /* InfoPlist.strings */,
+				A484112D15114F700074BD57 /* main.mm */,
+				A447B60E165D72FB009EA762 /* AppCoronaDelegate.h */,
+				A447B60F165D72FB009EA762 /* AppCoronaDelegate.mm */,
+				A484112F15114F700074BD57 /* Prefix.pch */,
+			);
+			name = App;
+			path = CoronaSampleApp;
+			sourceTree = "<group>";
+		};
+		A4841153151161300074BD57 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				A498B81916D70EFC0091A148 /* CoronaResources.bundle */,
+				A447B6691666FD43009EA762 /* CoronaSDK3rdPartyLicenses.txt */,
+				A447B6641666FD02009EA762 /* MainWindow-iPad.xib */,
+				A447B6651666FD02009EA762 /* MainWindow.xib */,
+			);
+			name = resource;
+			path = CoronaSampleApp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -526,7 +514,7 @@
 				FE4E4D621B2F13990067AD80 /* Icon-72.png in Resources */,
 				FE4E4D5D1B2F13990067AD80 /* buttonYellowOver.png in Resources */,
 				FE4E4D5E1B2F13990067AD80 /* carbonfiber.jpg in Resources */,
-				FEE9ED441B666326007D6FFC /* BoomResources.bundle in Resources */,
+				FE424B061BA6A92E00262231 /* BoomResources.bundle in Resources */,
 				FE4E4DEB1B2F1D8E0067AD80 /* Default-568h@2x.png in Resources */,
 				A498B81A16D70EFC0091A148 /* CoronaResources.bundle in Resources */,
 				FE4E4D531B2F13990067AD80 /* buttonGreenOver.png in Resources */,
@@ -637,8 +625,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -659,7 +646,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
@@ -679,8 +665,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -695,7 +680,6 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/CoronaEnterprise/Corona/shared/include/Corona ${SRCROOT}/CoronaEnterprise/Corona/shared/include/lua ${SRCROOT}/CoronaEnterprise/Corona/ios/include/Corona";
@@ -709,8 +693,6 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LIBRARY = "libstdc++";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
 				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -735,7 +717,6 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				SEPARATE_STRIP = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";
@@ -749,8 +730,6 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LIBRARY = "libstdc++";
-				CODE_SIGN_IDENTITY = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Yogesh Bhople (FSRWE32C2F)";
 				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -775,7 +754,6 @@
 					"-ObjC",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
 				SEPARATE_STRIP = YES;
 				STRIP_INSTALLED_PRODUCT = YES;
 				STRIP_STYLE = "non-global";

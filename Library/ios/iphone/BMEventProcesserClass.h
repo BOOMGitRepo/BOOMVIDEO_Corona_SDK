@@ -14,6 +14,6 @@
 
 @interface BMEventProcesserClass : NSObject <BoomVideoTrackerDelegate>
 +(BMEventProcesserClass *) sharedInstance;
-@property (nonatomic) void(*luaplugincallback)(BOOMEventErrorCode, NSDictionary*);
+@property (nonatomic) void(*luaplugincallback)(BOOMEventCode, NSDictionary*);
 //@property (nonatomic, assign) id<BoomVideoTrackerDelegate> videoTrackerInfoDelegate;
 @end

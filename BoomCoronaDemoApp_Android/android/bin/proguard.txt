@@ -1,0 +1,57 @@
+# view AndroidManifest.xml #generated:89
+-keep class com.ansca.corona.CameraActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.ansca.corona.CoronaActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:110
+-keep class com.ansca.corona.CoronaService { <init>(...); }
+
+# view AndroidManifest.xml #generated:118
+-keep class com.ansca.corona.SystemStartupBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:94
+-keep class com.ansca.corona.VideoActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.ansca.corona.notifications.AlarmManagerBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.ansca.corona.notifications.GoogleCloudMessagingBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:126
+-keep class com.ansca.corona.notifications.StatusBarBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class com.ansca.corona.purchasing.GoogleStoreBroadcastReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:98
+-keep class com.ansca.corona.purchasing.StoreActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:104
+-keep class com.ansca.corona.storage.FileContentProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:70
+-keep class com.boomvideo.DisplayBannerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:65
+-keep class com.boomvideo.activities.BMNonYoutubePlayerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:60
+-keep class com.boomvideo.activities.BMOfferlistActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.boomvideo.activities.BMYouTubePlayerViewActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:75
+-keep class com.boomvideo.activities.InterstitialActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:148
+-keep class com.boomvideo.handler.PackageListener { <init>(...); }
+
+# view AndroidManifest.xml #generated:81
+-keep class com.boomvideo.vast.VastPlayer { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.mycompany.app.CoronaApplication { <init>(...); }
+
