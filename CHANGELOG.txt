@@ -1,0 +1,29 @@
+
+
+v 1.7.1 
+- 17 August 2015
+- Fix kNetworkNotAvailableError bug
+- Fix runloop issue(IOS7 with iPad)
+- Fix Video size/offer list size issue
+
+v 1.7
+-6 August 2015
+-fix crash issue when terminated forcefully
+-fix bug for Pre-roll Video
+-fix text gets trimmed and close icon appears at center issue
+-add Full/normal screen icon
+-preroll integrate with Ads server
+
+v 1.6
+-2 July 2015
+-fix timer countdown bug
+-fix Mraid bug
+
+v 1.5
+-22 June 2015
+-add network check
+
+v 1.4
+-28 May 2015
+-Mraid Capibility
+ 
