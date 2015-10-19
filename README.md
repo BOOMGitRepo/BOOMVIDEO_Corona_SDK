@@ -3,16 +3,14 @@
 Demo IOS app: Download package [BoomCoronaDemoApp_IOS](BoomCoronaDemoApp_IOS)
 
 Demo Android App: 
-Download package for [BoomCoronaDemoApp_Android](BoomCoronaDemoApp_Android/Corona_1.6)
-
-Download package for [Corona_1.7](BoomCoronaDemoApp_Android/Corona_1.7)
+Download package for [BoomCoronaDemoApp_Android](BoomCoronaDemoApp_Android)
 
 
 # Get Started
 
-IOS: Follow our [Document](http://boom.boomvideo.tv/alpha/app/integrationdoc/BoomVideo_Corona_ios_IntegrationDoc.pdf) to Integrate SDK
+IOS: Follow our [Document](https://boomcollective.zendesk.com/hc/en-us/articles/204844469) to Integrate SDK
 
-Android: Follow our [Document](http://boom.boomvideo.tv/alpha/app/integrationdoc/BoomVideo_Corona_Android_IntegrationDoc.pdf) to Integrate SDK
+Android: Follow our [Document](https://boomcollective.zendesk.com/hc/en-us/articles/205914026) to Integrate SDK
 
 Download [Library](Library)
 
@@ -20,8 +18,6 @@ Download [Library](Library)
 Android : 4.0 and above
 IOS: 7.0 and above
 
-
-# Features
 
 # SDK Change Log
 Check SDK [Change Log](CHANGELOG.txt)
